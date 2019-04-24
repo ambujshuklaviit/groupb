@@ -1,0 +1,7 @@
+sport=c("Hockey","Baseball","football")
+league=c("L1","L2","L3")
+trophy=c("Sachin","Saurav","Yuvraj")
+trophies1=cbind(sport,league,trophy)
+trophies1
+trophies2=data.frame(sport=c("swimming","running"),league=c("watson","LEE"),trophy=c("Gavaskar","Tendulkar"),stringsAsFactors=FALSE)
+trophies=rbind(trophies1,trophies2)
